@@ -22,10 +22,8 @@ public class RegistrationFormTest {
 
     @Test
     void RegistrationTest() {
-        // Open website
-        open("https://demoqa.com/automation-practice-form");
 
-        // Find Element and Set value
+        open("https://demoqa.com/automation-practice-form");
         $("#firstName").setValue("Alex");
         $("#lastName").setValue("Smirnov");
         $("#userEmail").setValue("alex.smirnov@gmail.com");
